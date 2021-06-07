@@ -1,6 +1,6 @@
-var read = require("readline-sync");
+import { question } from "readline-sync";
 
-var num = read.question("Enter a number : " );
+var num = question("Enter a number : " );
 num = parseInt(num);
 
 var p = 1;
